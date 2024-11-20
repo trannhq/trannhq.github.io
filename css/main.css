@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700,400italic);
+/* Base text styles */
+
+p, ul, ol, table, dl {
+    margin: 0 0 22px;
+}
+
+a small {
+    font-size: 12px;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: 700;
+}
+
+ul li {
+    list-style-position: inside;
+    list-style: disc;
+    padding-left: 25px;
+}
+
+ol li {
+    list-style-position: inside;
+    list-style: decimal;
+    padding-left: 20px;
+}
+
+dl, dt, dd, dl p {
+    font-color: #444;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+dl dd {
+    padding-left: 20px;
+    font-style: italic;
+}
+
+dl p {
+    padding-left: 20px;
+    font-style: italic;
+}
+
+/* Code blocks */
+
+code, pre {
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    font-size: 14px;
+}
+
+
+/* Header */
+
+header {
+    background-color: #85aed6;
+    color: #FDFDFB;
+    width: 170px;
+    float: left;
+    position: fixed;
+    border: 1px solid #4c79a5;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 25px 40px 25px 20px;
+    margin: 0px 0px 0 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+p.header {
+    font-size: 16px;
+}
+
+h1.header {
+    font-family: 'Arvo', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.3em;
+    border-bottom: none;
+    margin-top: 0;
+}
+
+h1.header, a.header, a.name, header a {
+    color: #fff;
+}
+
+a.header {
+    text-decoration: underline;
+}
+
+a.name {
+    white-space: nowrap;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header li {
+    list-style-type: none;
+    width: 132px;
+    height: 15px;
+    margin-bottom: 12px;
+    line-height: 1em;
+    padding: 6px 6px 6px 7px;
+
+    background: #e20392;
+    background: -moz-linear-gradient(top, #d232a0 0%, #dc128b 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8f8f8), color-stop(100%, #dddddd));
+    background: -webkit-linear-gradient(top, #d232a0 0%, #dc128b 100%);
+    background: -o-linear-gradient(top, #d232a0 0%, #dc128b 100%);
+    background: -ms-linear-gradient(top, #d232a0 0%, #dc128b 100%);
+    background: linear-gradient(top, #d232a0 0%, #dc128b 100%);
+
+    border-radius: 4px;
+    border: 1px solid #e60098;
+
+    -webkit-box-shadow: inset 0px 1px 1px 0 rgb(224, 7, 138);
+    box-shadow: inset 0px 1px 1px 0 rgb(224, 7, 138);
+
+}
+
+header li:hover {
+    background: #e8048a;
+    background: -moz-linear-gradient(top, #ad1b74 0%, #ad066a 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8f8f8), color-stop(100%, #dddddd));
+    background: -webkit-linear-gradient(top, #ad1b74 0%, #ad066a 100%);
+    background: -o-linear-gradient(top, #ad1b74 0%, #ad066a 100%);
+    background: -ms-linear-gradient(top, #ad1b74 0%, #ad066a 100%);
+    background: linear-gradient(top, #ad1b74 0%, #ad066a 100%);
+}
+
+a.buttons {
+    -webkit-font-smoothing: antialiased;
+    /* 	background: url(../images/fb-256.png) no-repeat 2px 1px;
+        background: url(../images/g-256.png) no-repeat 2px 1px\9; */
+    background-size: 12px auto;
+    font-weight: normal;
+    text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
+    padding: 2px 2px 2px 22px;
+    height: 30px;
+}
+
+a.github {
+    background: url(../images/octocat.svg) no-repeat 1px;
+    background: url(../images/octocat-small.png) no-repeat 1px \9;
+    background-size: 14px auto;
+}
+
+a.buttons:hover {
+    color: #fff;
+    text-decoration: none;
+}

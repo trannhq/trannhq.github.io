@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /*.css
+Allow:/*.js
+Sitemap: https://buibichngoc.github.io/sitemap.xml
